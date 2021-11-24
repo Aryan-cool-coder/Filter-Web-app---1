@@ -1,0 +1,37 @@
+body {
+    background: url("doodle_background.png");
+}
+h1 {
+    size: 150px;
+    color:goldenrod;
+    background: linear-gradient(#ae3535, #24a495);
+    border-radius: 50px;
+    border: groove;
+    margin-left: 300px;
+    margin-right: 300.81px;
+    padding-bottom: 25.746493px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 25.11111111111111111111111111111111111111px;
+}
+
+canvas {
+    border:2px dotted blueviolet ;
+    animation-name: epic_anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 75px;
+}
+
+@keyframes epic_anim {
+    from {
+        box-shadow: 1px 1px 40px purple;
+    }
+    to {
+        box-shadow: 1px 1px 40px green;
+    }
+}
+
+#db {
+    margin-left: 80%;
+}
